@@ -1,0 +1,22 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-height: 200px;
+  padding: 34px 16px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.1);
+
+  p {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  img {
+    height: 80px;
+  }
+}
